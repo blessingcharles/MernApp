@@ -45,7 +45,7 @@ app.use((error,req,res,next)=>{
 })
 
 mongoose
-.connect('mongodb+srv://tester:zaqwerm321@cluster0.xb2oh.mongodb.net/mernapp?retryWrites=true&w=majority',{ useNewUrlParser: true } )
+.connect('mongodb+srv://username:password@cluster0.xb2oh.mongodb.net/mernapp?retryWrites=true&w=majority',{ useNewUrlParser: true } )
 .then(()=>{
     app.listen(5000);
     console.log('mongodb connected')}
