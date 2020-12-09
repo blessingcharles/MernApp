@@ -1,0 +1,17 @@
+.avatar {
+    width: 50%;
+    height: 50%;
+    display: center; 
+    justify-content: center;
+    align-items: center;
+    image-rendering: center;
+
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display: center;
+    image-rendering: center;
+  }
